@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tribute Page</title>
+
+    <style media="screen">
+
+    body{
+      font-size: 1.6rem;
+      line-height: 1.5;
+      margin: 0;
+      background: #203647;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    header{
+      background: #203647;
+      color: white;
+    }
+
+    .h1{
+      display: flex;
+      justify-content: center;
+    }
+
+    .h5{
+      display: flex;
+      justify-content: center;
+    }
+
+    #img-div{
+      background: #293647;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      margin: 25px;
+    }
+
+    #image{
+      display: block;
+      margin: 0 auto;
+      border-radius: 5px;
+      width: 50%;
+      max-width: 300px;
+    }
+
+    #img-caption{
+      padding-bottom: none;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .info-text{
+      display: flex;
+      font-size: 30px;
+      justify-content: center;
+      color: white;
+
+    }
+
+    #tribute-info{
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    #tribute-link{
+      font-size: 20px;
+      text-decoration: none;
+      padding-bottom: : 100px;
+      margin-left: 50px;
+    }
+
+    footer{
+      background-color: #293647;
+    }
+
+    #tribute-link:visited{
+      color: white;
+      font-size: 10px;
+    }
+
+    </style>
+
+  </head>
+  <body id="main">
+    <header id="title">
+      <div class="h1">
+        <h1>Guido van Rossum</h1>
+      </div>
+
+      <div class="h5">
+        <h5>The creator of the world's greatest programming language</h5>
+      </div>
+    </header>
+
+    <div id="img-div">
+      <img id="image" src="./bilder/guido.jpg" alt="a picture of Guido van Rossum">
+      <p id="img-caption">Guido van Rossum</p>
+    </div>
+    <p class="info-text">Some information about the founder of Python</p>
+    <div id="tribute-info">
+      <br>
+      <ul>
+        <li><b>1956</b> - Born in Haarlem, Netherlands</li>
+        <br>
+        <li><b>1982</b> - Master's degree in mathematics</li>
+        <br>
+        <li><b>1986</b> - Worked on BSD Unix</li>
+        <br>
+        <li><b>1989</b> - Started working on Python</li>
+        <br>
+        <li><b>1999</b> - Submitted funding proposal for Python</li>
+        <br>
+        <li><b>2013</b> - Started working at Dropbox</li>
+        <br>
+        <li><b>2019</b> - Officially retired</li>
+        <br>
+        <li><b>2020</b> - Announced to join the Developer Division at Microsoft</li>
+      </ul>
+    </div>
+
+    <footer>
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Guido_van_Rossum" target="_blank">Wikipedia</a>
+    </footer>
+
+  </body>
+</html>
